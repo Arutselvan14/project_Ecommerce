@@ -1,0 +1,36 @@
+
+/* Welcome Section in Main Content */
+.profile-cart {
+    font-family: cursive;
+    color: black;
+    font-weight: 900;
+}
+
+.profile-cart h3 {
+    color: rgb(28, 22, 22);
+    font-weight: 900;
+}
+
+/* Collection of Electronics in Main Content */
+.col_electronics {
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Corrected Color for Name Cart */
+.name_cart {
+    color: rgb(255, 69, 0); /* Used a valid color instead of hwb */
+    font-size: 65px;
+}
+
+/* Collection of Dresses in Main Content */
+.col_Dresses {
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card_title {
+    text-align: center;
+}
+
+

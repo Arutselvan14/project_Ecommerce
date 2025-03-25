@@ -1,0 +1,71 @@
+/* Navbar Styles */
+.logo-img {
+    margin-left: 5px;
+}
+
+.logodiv {
+    border-radius: 20%;
+}
+
+#image1 {
+    width: 100px;
+    height: 65px;
+    border-radius: 25%;
+    margin-top: -10px;
+}
+
+#image2 {
+    margin-left: -25px;
+    width: 53px;
+    height: 55px;
+    border-radius: 25%;
+}
+
+/* Background Color */
+.bgcol {
+    background-color: #222121;
+}
+
+/* Brand Name Styling  not important*/
+#mart {
+    text-shadow: -1px -1px 2px rgb(220, 220, 4), 1px 1px 2px rgb(234, 234, 21);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(252, 253, 252);
+    font-size: 20px;
+    padding: 5px;
+    margin-left: -22px;
+}
+
+/* Navigation Details */
+.nav-detail {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    column-gap: 20px;
+}
+
+/* Navigation Home Link */
+#nav-detail-home {
+    color: rgb(223, 217, 217);
+    text-decoration: none;
+    
+}
+
+#nav-detail-home:hover {
+    color: rgb(137, 137, 137);
+}
+
+/* Menu Spacing */
+.menugap {
+    column-gap: 15px;
+}
+
+/* Search Bar */
+.search-icon {
+    margin-top: 2px;
+}
+
+.search-bar {
+    border: none;
+    color: #040404;
+}

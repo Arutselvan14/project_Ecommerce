@@ -1,0 +1,30 @@
+/* Footer Styling */
+.footercontent {
+    background-color: #121111;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(167, 171, 174);
+    padding: 20px;
+    text-align: center;
+}
+
+#footimage1 {
+    width: 134px;
+    height: 85px;
+    border-radius: 25%;
+    margin: -10px 0 20px 0; /* Combined margin properties */
+}
+
+#footmart {
+    text-shadow: -1px -1px 2px rgb(220, 220, 4), 1px 1px 2px rgb(234, 234, 21);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(252, 253, 252);
+    font-size: 15px;
+    padding: 5px;
+    /* margin-left: -25px; */ /* Consider removing if causing misalignment */
+}
+
+.footercontent h5 {
+    color: rgb(209, 77, 0);
+    font-weight: bold;
+}
+
