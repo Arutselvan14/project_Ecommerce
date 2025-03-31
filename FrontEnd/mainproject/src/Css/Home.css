@@ -1,7 +1,7 @@
 
 /* Welcome Section in Main Content */
 .profile-cart {
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-weight: 900;
 }
@@ -20,7 +20,7 @@
 /* Corrected Color for Name Cart */
 .name_cart {
     color: rgb(255, 69, 0); /* Used a valid color instead of hwb */
-    font-size: 65px;
+    font-size: 55px;
 }
 
 /* Collection of Dresses in Main Content */

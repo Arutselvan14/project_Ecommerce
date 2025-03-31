@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Card, Button } from 'react-bootstrap';
 import '../Css/NavBar.css';
+import logo7 from '../assets/home_img/logo7.avif';
+import imglogo1 from '../assets/home_img/imglogo1.avif'
+import imglogo2 from '../assets/home_img/imglogo2.avif'
 
 const NavBar = ({ cart }) => {
   const [show, setShow] = useState(false);
   const [carts, setCarts] = useState([]);
-  const baseURL = "http://127.0.0.1:8000";
-  const signProfile = "./src/assets/home_img/logo7.jpg"; 
+  const baseURL = "http://127.0.0.1:8000"; 
 
   const handleShow = () => {
     setCarts(cart);
@@ -28,8 +30,8 @@ const NavBar = ({ cart }) => {
           <Navbar.Brand className='logo-img'>
             <div className='border border-primary border-3 logodiv'>
               <Link to='/' className='text-decoration-none' id='nav-detail-home'>
-                <img id='image1' src='./src/assets/home_img/imglogo1.png' alt='Logo 1' />
-                <img id='image2' src='./src/assets/home_img/imglogo2.png' alt='Logo 2' />
+                <img id='image1' src={imglogo1} alt='Logo 1' />
+                <img id='image2' src={imglogo2} alt='Logo 2' />
               </Link>
             </div>
           </Navbar.Brand>
@@ -60,7 +62,7 @@ const NavBar = ({ cart }) => {
               </Nav.Link>
               <Nav.Link>
                 <Link to='/signup' className='text-decoration-none text-black'>
-                  <img src={signProfile} alt="Profile" style={{ width: "35px", height: "35px", borderRadius: "20px" }} />
+                  <img src={logo7} alt="Profile" style={{ width: "35px", height: "35px", borderRadius: "20px" }} />
                 </Link>
               </Nav.Link>
             </Nav>

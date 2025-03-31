@@ -1,6 +1,6 @@
 /* Centered container with a gradient background */
 .login-container {
-    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    background: linear-gradient(rgb(162, 167, 168), rgb(126, 129, 129));
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
   }
 
   .signup-container {
-    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    background: linear-gradient(rgb(162, 167, 168), rgb(126, 129, 129));
     height: 100vh;
     display: flex;
     justify-content: center;

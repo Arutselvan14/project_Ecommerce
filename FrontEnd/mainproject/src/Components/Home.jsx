@@ -5,6 +5,7 @@ import axios from 'axios';
 import '../Css/Home.css';
 import '../Css/Common.css';
 import Carosal from './Carosal';
+import home1 from "../assets/home_img/home1.avif"
 
 const Home = ({ addToCart }) => {
   const [products, setProducts] = useState([]);
@@ -40,7 +41,7 @@ const Home = ({ addToCart }) => {
             </div>
             <div className="col-md-6 p-2">
               <img
-                src="./src/assets/home_img/home1.webp"
+                src={home1}
                 className="img-fluid rounded"
                 alt="ADmart Home"
               />

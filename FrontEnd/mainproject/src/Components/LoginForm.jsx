@@ -32,11 +32,15 @@ const LoginForm = () => {
       if (user.UserPassword == password) {
         alert("Login successful!");
         setError(""); // Clear error if login is successful
+        setEmail("")
+        setPassword("")
       } else {
         setError("Incorrect password. Please try again.");
       }
     } else {
       setError("User not found. Please check your email.");
+      setEmail("")
+      setPassword("")
     }
   };
 

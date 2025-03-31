@@ -2,6 +2,7 @@ import React from 'react';
 import '../Css/Footer.css';
 import { Link } from 'react-router-dom';
 import { FaWhatsapp, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
+import imglogo1 from '../assets/home_img/imglogo1.avif'
 
 
 const Footer = () => {
@@ -16,17 +17,17 @@ const Footer = () => {
               <Link to='/' className='text-decoration-none'>
                 <img
                   id='footimage1'
-                  src='./src/assets/home_img/imglogo1.png'
+                  src={imglogo1}
                   className='border border-primary border-3'
                   alt='ADmart Logo'
                 />
               </Link>
               <h5>Follow us on social media</h5>
               <div className='social-icons'>
-                <FaWhatsapp  size={35} color="green" className='me-3' />
-                <FaEnvelope color="orange" size={35} className='me-3' />
-                <FaPhone  size={30} color="lightblue" className='me-3' />
-                <FaLinkedin color="blue" size={35} className='me-3' />
+                <FaWhatsapp  size={28}  className='me-3 icon1' />
+                <FaEnvelope  size={28} className='me-3 icon2' />
+                <FaPhone  size={23}  className='me-3 icon3' />
+                <FaLinkedin  size={28} className='me-3 icon4' />
 
               </div>
             </div>
@@ -59,7 +60,7 @@ const Footer = () => {
               <p>Stay updated with our latest news and offers</p>
               <form>
                 <input type='email' placeholder='Enter Email Address' className='form-control mb-2' />
-                <button className='btn btn-info text-white'>Subscribe</button>
+                <button className='btn btn-success text-white'>Subscribe</button>
               </form>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import a7 from '../assets/about_img/a7.jpg';
+import a7 from '../assets/about_img/a7.avif';
 import a2 from '../assets/about_img/a2.avif';
 import a3 from '../assets/about_img/a3.avif';
 
