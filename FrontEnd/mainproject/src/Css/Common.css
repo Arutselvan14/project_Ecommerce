@@ -47,12 +47,14 @@
 
 /* Background Styles */
 .whole {
-    min-height: 400px;
+    min-height: 700px;
     background: linear-gradient(rgb(162, 167, 168), rgb(126, 129, 129));
     
- 
 
-
+}
+.about-content{
+    min-height: 800px;
+    background: linear-gradient(rgb(162, 167, 168), rgb(126, 129, 129));
 }
 
 /* Horizontal Rule Style */
