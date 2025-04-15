@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import axios from 'axios';
 import '../Css/Home.css';
 import '../Css/Common.css';
-import Carosal from './Carosal';
+// import Carosal from './Carosal';
 import home1 from "../assets/home_img/home1.avif"
 
 const Home = ({ addToCart }) => {
@@ -66,7 +66,7 @@ const Home = ({ addToCart }) => {
                   <Card.Body>
                     <Card.Title className="card_name">{product.product_name}</Card.Title>
                     <Card.Title className="card_price">Price: {product.product_price}</Card.Title>
-                    <Button variant="success" className="card_btn" onClick={() => addToCart(product)}>
+                    <Button variant="success" className="btn" onClick={() => addToCart(product)}>
                       Add to Cart
                     </Button>
                   </Card.Body>
@@ -75,6 +75,8 @@ const Home = ({ addToCart }) => {
             ))}
           </div>
         </div>
+
+        
 
         {/* Carousel Component */}
         {/* <Carosal /> */}
@@ -96,7 +98,7 @@ const Home = ({ addToCart }) => {
                   <Card.Body>
                     <Card.Title className="card_name">{product.product_name}</Card.Title>
                     <Card.Title className="card_price">Price: {product.product_price}</Card.Title>
-                    <Button variant="success" className="card_btn" onClick={() => addToCart(product)}>
+                    <Button variant="success" className="btn" onClick={() => addToCart(product)}>
                       Add to Cart
                     </Button>
                   </Card.Body>
