@@ -19,20 +19,20 @@ const Home = ({ addToCart }) => {
     //   .catch((error) => console.error("Error fetching products:", error));
 
     fetch('https://raw.githubusercontent.com/Arutselvan14/project_Ecommerce/main/BackEnd/MainProject/dta.text')
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      return response.text(); // Get the response as a plain string
-    })
-    .then((data) => {
-      const parsedData = JSON.parse(data); // Convert string to JSON
-      console.log('Parsed data:', parsedData);
-      setProducts(parsedData); // ✅ Correct usage
-    })
-    .catch((error) => {
-      console.error('Error fetching or parsing file:', error);
-    });
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.text(); // Get the response as a plain string
+      })
+      .then((data) => {
+        const parsedData = JSON.parse(data); // Convert string to JSON
+        console.log('Parsed data:', parsedData);
+        setProducts(parsedData); // ✅ Correct usage
+      })
+      .catch((error) => {
+        console.error('Error fetching or parsing file:', error);
+      });
 
   }, []);
 
