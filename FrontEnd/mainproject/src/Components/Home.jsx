@@ -18,7 +18,7 @@ const Home = ({ addToCart }) => {
     //   })
     //   .catch((error) => console.error("Error fetching products:", error));
 
-    fetch('https://raw.githubusercontent.com/Arutselvan14/project_Ecommerce/main/BackEnd/dta.text')
+    fetch('https://raw.githubusercontent.com/Arutselvan14/project_Ecommerce/main/BackEnd/MainProject/dta.text')
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
