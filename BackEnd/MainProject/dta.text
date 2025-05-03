@@ -1,4 +1,4 @@
-[{"id":1,"product_name":"Apple","product_price":150,"product_image":"http://127.0.0.1:8000/media/apple_G_fruits.jpeg","product_quantity":0,"product_kg":1,"product_type":1},
+[{"id":1,"product_name":"Apple","product_price":150,"product_image":"media/apple_G_fruits.jpeg","product_quantity":0,"product_kg":1,"product_type":1},
 {"id":2,"product_name":"Mango","product_price":100,"product_image":"http://127.0.0.1:8000/media/Mango_G_fruits.jpg","product_quantity":0,"product_kg":1,"product_type":1},
 {"id":3,"product_name":"Orange","product_price":120,"product_image":"http://127.0.0.1:8000/media/Orange_G_fruits.jpeg","product_quantity":0,"product_kg":1,"product_type":1},
 {"id":4,"product_name":"Carrot","product_price":50,"product_image":"http://127.0.0.1:8000/media/Carrot_G_Vegtables.jpeg","product_quantity":0,"product_kg":1,"product_type":2},
