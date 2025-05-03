@@ -9,7 +9,7 @@ import home1 from "../assets/home_img/home1.avif"
 
 const Home = ({ addToCart }) => {
   const [products, setProducts] = useState([]);
-  const baseURL = "http://127.0.0.1:8000";
+  const baseURL = "https://v1.nocodeapi.com/arutselvan/github/vusLpdUxJqFKiTDl";
 
   useEffect(() => {
     axios.get(`${baseURL}/api/products/`)
