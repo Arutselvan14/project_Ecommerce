@@ -9,33 +9,15 @@ import home1 from "../assets/home_img/home1.avif"
 
 const Home = ({ addToCart }) => {
   const [products, setProducts] = useState([]);
-  // const baseURL = "http://127.0.0.1:8000";
+  const baseURL = "http://127.0.0.1:8000";
 
   useEffect(() => {
-    // axios.get(`${baseURL}/api/products/`)
-    //   .then((response) => {
-    //     setProducts(response.data);
-    //   })
-    //   .catch((error) => console.error("Error fetching products:", error));
-
-    fetch('https://raw.githubusercontent.com/Arutselvan14/project_Ecommerce/main/BackEnd/MainProject/dta.text')
+    axios.get(`${baseURL}/api/products/`)
       .then((response) => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        return response.text(); // Get the response as a plain string
+        setProducts(response.data);
       })
-      .then((data) => {
-        const parsedData = JSON.parse(data); // Convert string to JSON
-        console.log('Parsed data:', parsedData);
-        setProducts(parsedData); // ✅ Correct usage
-      })
-      .catch((error) => {
-        console.error('Error fetching or parsing file:', error);
-      });
-
+      .catch((error) => console.error("Error fetching products:", error));
   }, []);
-
 
   const electronics = products.filter(product =>
     (product.product_name.startsWith("Laptop") && product.product_price > 60000) ||
@@ -94,7 +76,7 @@ const Home = ({ addToCart }) => {
           </div>
         </div>
 
-
+        
 
         {/* Carousel Component */}
         {/* <Carosal /> */}
